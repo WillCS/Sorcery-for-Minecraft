@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<research>
+	<node tier="0">
+		<title>Crafting</title>
+		<desc>Making stuff out of other stuff</desc>
+		<icon type="item" name="minecraft:crafting_table" damage="0" />
+		<position x="0" y="0" />
+		<hint>Craft a Crafting Table</hint>
+		<unlock type="auto"></unlock>
+	</node>
+	
+	<node tier="1">
+        <title>Archaeology</title>
+        <desc>Uncovering the secrets of the past</desc>
+        <icon type="item" name="Sorcery:craftingToolDuster" damage="0" />
+        <position x="-6" y="0" />
+        <hint>Find and investigate some ruins</hint>
+    </node>
+	
+	<node tier="0">
+		<title>Incubators</title>
+		<desc>Hatching eggs with style</desc>
+		<icon type="item" name="Sorcery:sorceryHalfBlock" damage="0" />
+		<position x="0" y="-4" />
+		<parent>Crafting</parent>
+		<hint>Craft an Incubator</hint>
+		<unlock type="obtain">
+			<item type="item" name="minecraft:apple" damage="0" />
+		</unlock>
+		
+		<spellcomponent>focus_adj_fire</spellcomponent>
+		<spellcomponent>focus_adj_energy</spellcomponent>
+		<spellcomponent>focus_adj_frost</spellcomponent>
+		<spellcomponent>focus_adj_wind</spellcomponent>
+		<spellcomponent>focus_adj_water</spellcomponent>
+		<spellcomponent>focus_adj_voodoo</spellcomponent>
+		<spellcomponent>focus_adj_void</spellcomponent>
+		<spellcomponent>focus_adj_stone</spellcomponent>
+		<spellcomponent>focus_adj_life</spellcomponent>
+		<spellcomponent>focus_adj_arcane</spellcomponent>
+		
+		<spellcomponent>focus_adj_fast</spellcomponent>
+		
+		<spellcomponent>focus_projectile</spellcomponent>
+        <spellcomponent>focus_beam</spellcomponent>
+		
+        <spellcomponent>action_conjure</spellcomponent>
+	</node>
+	
+	<node tier="1">
+		<title>Desks</title>
+		<desc>Spells aren't going to write themselves</desc>
+		<icon type="item" name="Sorcery:desk" damage="0" ></icon>
+		<position x="0" y="4" />
+		<parent>Crafting</parent>
+		<hint>Craft a Desk</hint>
+	</node>
+	   
+    <node tier="2">
+        <title>Wandcrafting</title>
+        <desc>The tools of the trade</desc>
+        <icon type="item" name="Sorcery:wand" damage="0" />
+        <position x="0" y="16" />
+        <parent>Desks</parent>
+        <hint>Craft and place a Desk</hint>
+    </node>
+     
+    <node tier="2">
+        <title>Spellcrafting</title>
+        <desc>A little bit of this, and a little bit of that...</desc>
+        <icon type="item" name="Sorcery:spellPage" damage="0" />
+        <position x="-12" y="4" />
+        <parent>Desks</parent>
+        <hint>Craft and place a Desk</hint>
+    </node>
+	
+	<node tier="2">
+		<title>Phoenixes</title>
+		<desc>Big, flaming birds</desc>
+		<icon type="item" name="Sorcery:phoenixEgg" damage="0" />
+		<position x="-2" y="-4" />
+		<parent>Incubators</parent>
+		<hint>Hatch a Phoenix Egg purchased from A Villager</hint>
+		<unlock type="custom"></unlock>
+	</node>
+	
+	<node tier="0">
+		<title>Golden Chickens</title>
+		<desc>Genetic Engineering is A-Okay</desc>
+		<icon type="item" name="Sorcery:chickengEgg" damage="0" />
+		<position x="2" y="-4" />
+		<parent>Incubators</parent>
+		<hint>Craft and Hatch a Golden Chicken Egg</hint>
+	</node>
+		
+	<node tier="0">
+		<title>Smelting</title>
+		<desc>Basic metalwork</desc>
+		<icon type="item" name="minecraft:furnace" damage="0" />
+		<position x="3" y="0" />
+		<parent>Crafting</parent>
+		<hint>Craft a Furncace</hint>
+		<unlock type="auto"></unlock>
+	</node>
+	
+	<node tier="0">
+		<title>The Magical Elements</title>
+		<desc>The building blocks from which all Magic is produced</desc>
+		<icon type="item" name="minecraft:apple" damage="0" />
+		<position x="-6" y="10" />
+		<hint>Find an elemental object</hint>
+	</node>
+	
+	<node tier="0">
+		<title>Bottles of Energy</title>
+		<desc>A primitive, yet effective way of storing energy</desc>
+		<icon type="item" name="minecraft:apple" damage="0" />
+		<position x="2" y="10" />
+		<hint>Infuse a bottle of water with the power of an Element</hint>
+		<parent>The Magical Elements</parent>
+	</node>
+	
+	<node tier="1">
+		<title>Runestones</title>
+		<desc>A much higher density method of energy storage</desc>
+		<icon type="item" name="minecraft:apple" damage="0" />
+		<position x="8" y="10" />
+		<hint>Infuse a runestone with the power of an Element</hint>
+		<parent>Bottles of Energy</parent>
+	</node>
+	
+	<node tier="2">
+		<title>Elemental Capacitors</title>
+		<desc>MAXIMUM ENERGY!</desc>
+		<icon type="item" name="minecraft:apple" damage="0" />
+		<position x="14" y="10" />
+		<hint>Infuse an Elemental Capacitor</hint>
+		<parent>Runestones</parent>
+		<unlock type="field">
+			<block name="minecraft:iron_block" damage="0" />
+		</unlock>
+	</node>
+	
+	<node tier="0">
+		<title>Forging</title>
+		<desc>More advanced metalwork</desc>
+		<icon type="item" name="minecraft:apple" damage="0" />
+		<position x="6" y="0" />
+		<parent>Smelting</parent>
+		<hint>Craft a Forge</hint>
+		<unlock type="field">
+			<block name="minecraft:iron_block" damage="0" />
+		</unlock>
+	</node>
+	
+	<node tier="1">
+		<title>Tinkering</title>
+		<desc>Crafting, but not as you know it</desc>
+		<icon type="item" name="minecraft:apple" damage="0" />
+		<position x="9" y="0" />
+		<parent>Forging</parent>
+		<hint>Craft a Tinkering Table</hint>
+	</node>
+	
+	<node tier="2">
+        <title>Machinery</title>
+        <desc>It's like magic, but with gears</desc>
+        <icon type="item" name="minecraft:apple" damage="0" />
+        <position x="12" y="0" />
+        <parent>Tinkering</parent>
+        <hint>Allan please add a hint</hint>
+    </node>
+	
+	<node tier="2" hidden="true">
+		<parent>Archaeology</parent>
+		<parent>Spellcrafting</parent>
+		<icon type="icon" name=""></icon>
+		<title>Apparation</title>
+		<desc>The lost art of teleportation</desc>
+		<position x="-14" y="2"></position></node><!--<node tier="2">
+		<title>Machinery</title>
+		<desc>It's like magic, but with gears</desc>
+		<icon type="item" name="minecraft:apple" damage="0" />
+		<position x="8" y="-2" />
+		<parent>Tinkering</parent>
+		<hint>Allan please add a hint</hint>
+		
+		<page type="text">
+			Fire is one of the 9 basic elements. It is spam text spam spam ahahehahehahdhah fsasdf spam sfsad dfs ads fads f asd fsad f asdf sad
+		</page>	
+		
+		<page type="image" heading="Penis">
+			sorcery:research/textures/test.png
+		</page>
+		
+		<page type="recipe" heading="doodle">
+			<recipe type="crafting" name="6900" damage="4" amount="13" />
+		</page>
+		
+		<page type="text" heading="spam">
+			dadsfasdfsadfsadf
+		</page>
+		
+        <page type="text">
+               Fire is one of the 9 basic elements. It is spam text spam spam ahahehahehahdhah fsasdf spam sfsad dfs ads fads f asd fsad f asdf sad
+           </page> 
+           
+           <page type="image" heading="Penis" hint="true">test</page>
+           
+           <page type="recipe" heading="doodle">
+               <recipe type="crafting" name="6900" damage="4" amount="13" />
+           </page>
+           
+           <page type="text" heading="spam">
+               dadsfasdfsadfsadf
+           </page>
+		
+		 other types:  image, entity, structure
+	</node>-->
+	
+</research>

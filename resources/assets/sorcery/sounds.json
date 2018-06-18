@@ -1,0 +1,82 @@
+{
+  "phoenix.hurt": {
+    "category": "neutral",
+    "sounds": [
+      "phoenix/hurt1"
+    ]
+  },
+  "phoenix.idle": {
+    "category": "neutral",
+    "sounds": [
+      "phoenix/idle1",
+      "phoenix/idle2"
+    ]
+  },
+  "unicorn.hurt": {
+    "category": "neutral",
+    "sounds": [
+      "unicorn/hurt1"
+    ]
+  },
+  "unicorn.idle": {
+    "category": "neutral",
+    "sounds": [
+      "unicorn/idle1",
+      "unicorn/idle2"
+    ]
+  },
+  "magic.spellGood": {
+    "category": "neutral",
+    "sounds": [
+      "magic/spellGood1",
+      "magic/spellGood2"
+    ]
+  },
+  "magic.spellBad": {
+    "category": "neutral",
+    "sounds": [
+      "magic/spellBad1",
+      "magic/spellBad2"
+    ]
+  },
+  "egg.crack": {
+    "category": "neutral",
+    "sounds": [
+      "egg/crack"
+    ]
+  },
+  "shade.idle": {
+    "category": "hostile",
+    "sounds": [
+      "shade/idle1",
+      "shade/idle2",
+      "shade/idle3"
+    ]
+  },
+  "shade.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "shade/hurt1"
+    ]
+  },
+  "shade.death": {
+    "category": "hostile",
+    "sounds": [
+      "shade/death1"
+    ]
+  },
+  "book.page": {
+    "category": "neutral",
+    "sounds": [
+      "book/page1",
+      "book/page2",
+      "book/page3"
+    ]
+  },
+  "book.close": {
+    "category": "neutral",
+    "sounds": [
+      "book/close"
+    ]
+  }
+}
